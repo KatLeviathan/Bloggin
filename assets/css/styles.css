@@ -80,3 +80,15 @@ nav ul li a.dark-mode {
     background-color: #444; /* Dark grey background for the button in dark mode */
     color: #fff; /* White icon color in dark mode */
 }
+
+#new-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#blog-form {
+    width: 100%;
+    max-width: 600px; /* Limit the width of the form for better readability */
+}
