@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">&#9728;</button>
+    </header>
+    <main>
+        <section>
+            <h2>Create a New Blog Post</h2>
+            <form id="blog-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="title">Blog Title</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="content">Blog Content</label>
+                <textarea id="content" name="content" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <p id="form-message"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Blog | <a href="https://portfolio.example.com">Developer's Portfolio</a></p>
+    </footer>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/logic.js"></script>
+</body>
+</html>
